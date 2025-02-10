@@ -1,0 +1,37 @@
+rm -rf build
+mkdir build
+cd build
+cmake ..
+make
+./TLM_LT 
+
+./RSLatch
+
+./SimpleFIFO
+
+
+  or 
+
+
+
+Testing the Installation
+ All required tools are now installed and you can test if your system is working. Create a
+ build folder inside the SCVP artifacts repository and navigate into it:
+ $ mkdir SCVP.artifacts/build
+ $ cd SCVP.artifacts/build
+ Create a makefile using CMake and build the project:
+ $ cmake ..
+ $ make-j N
+ Now execute one of the examples, e.g., the tlm_protocol_checker:
+ $ ./tlm_protocol_checker/tlm_protocol_checker
+
+
+
+
+
+git fetch origin
+git merge origin/master
+# Resolve any conflicts if necessary
+git add .
+git commit -m "Resolved merge conflicts"
+git push origin master
