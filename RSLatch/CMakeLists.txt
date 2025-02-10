@@ -1,12 +1,11 @@
 # filepath: /home/khaled99/MyRepo/RSLatch/CMakeLists.txt
 cmake_minimum_required(VERSION 3.10)
 
-project(Exercise2)
+project(RSLatchProject)
 
 # Add the executable
 add_executable(RSLatch
     RSLatch.cpp
-    testRSLatch.cpp
 )
 
 # Include SystemC headers

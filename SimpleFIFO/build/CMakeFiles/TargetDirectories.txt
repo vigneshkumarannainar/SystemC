@@ -1,0 +1,3 @@
+/home/khaled99/MyRepo/SimpleFIFO/build/CMakeFiles/SimpleFIFO.dir
+/home/khaled99/MyRepo/SimpleFIFO/build/CMakeFiles/edit_cache.dir
+/home/khaled99/MyRepo/SimpleFIFO/build/CMakeFiles/rebuild_cache.dir

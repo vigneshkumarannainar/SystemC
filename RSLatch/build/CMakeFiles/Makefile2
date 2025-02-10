@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khaled99/My_Repository/RSLatch
+CMAKE_SOURCE_DIR = /home/khaled99/MyRepo/RSLatch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khaled99/My_Repository/RSLatch/build
+CMAKE_BINARY_DIR = /home/khaled99/MyRepo/RSLatch/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/My_Repository.dir/all
+all: CMakeFiles/RSLatch.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/My_Repository.dir/clean
+clean: CMakeFiles/RSLatch.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/My_Repository.dir
+# Target rules for target CMakeFiles/RSLatch.dir
 
 # All Build rule for target.
-CMakeFiles/My_Repository.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My_Repository.dir/build.make CMakeFiles/My_Repository.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My_Repository.dir/build.make CMakeFiles/My_Repository.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/khaled99/My_Repository/RSLatch/build/CMakeFiles --progress-num=1,2 "Built target My_Repository"
-.PHONY : CMakeFiles/My_Repository.dir/all
+CMakeFiles/RSLatch.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RSLatch.dir/build.make CMakeFiles/RSLatch.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RSLatch.dir/build.make CMakeFiles/RSLatch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/khaled99/MyRepo/RSLatch/build/CMakeFiles --progress-num=1,2 "Built target RSLatch"
+.PHONY : CMakeFiles/RSLatch.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/My_Repository.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled99/My_Repository/RSLatch/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/My_Repository.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled99/My_Repository/RSLatch/build/CMakeFiles 0
-.PHONY : CMakeFiles/My_Repository.dir/rule
+CMakeFiles/RSLatch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled99/MyRepo/RSLatch/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RSLatch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled99/MyRepo/RSLatch/build/CMakeFiles 0
+.PHONY : CMakeFiles/RSLatch.dir/rule
 
 # Convenience name for target.
-My_Repository: CMakeFiles/My_Repository.dir/rule
-.PHONY : My_Repository
+RSLatch: CMakeFiles/RSLatch.dir/rule
+.PHONY : RSLatch
 
 # clean rule for target.
-CMakeFiles/My_Repository.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My_Repository.dir/build.make CMakeFiles/My_Repository.dir/clean
-.PHONY : CMakeFiles/My_Repository.dir/clean
+CMakeFiles/RSLatch.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RSLatch.dir/build.make CMakeFiles/RSLatch.dir/clean
+.PHONY : CMakeFiles/RSLatch.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -42,9 +42,9 @@
             "detail": "compiler: /usr/bin/g++-13"
         },
         {
-            "type": "cppbuild",
-            "label": "C/C++: gcc build active file",
-            "command": "/usr/bin/g++-13",
+            "label": "Build RSLatch",
+            "type": "shell",
+            "command": "g++ -std=c++17 -o RSLatch RSLatch.cpp -lsystemc",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",

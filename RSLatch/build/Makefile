@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/khaled99/My_Repository/RSLatch
+CMAKE_SOURCE_DIR = /home/khaled99/MyRepo/RSLatch
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/khaled99/My_Repository/RSLatch/build
+CMAKE_BINARY_DIR = /home/khaled99/MyRepo/RSLatch/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled99/My_Repository/RSLatch/build/CMakeFiles /home/khaled99/My_Repository/RSLatch/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled99/MyRepo/RSLatch/build/CMakeFiles /home/khaled99/MyRepo/RSLatch/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled99/My_Repository/RSLatch/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/khaled99/MyRepo/RSLatch/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named My_Repository
+# Target rules for targets named RSLatch
 
 # Build rule for target.
-My_Repository: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 My_Repository
-.PHONY : My_Repository
+RSLatch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RSLatch
+.PHONY : RSLatch
 
 # fast build rule for target.
-My_Repository/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My_Repository.dir/build.make CMakeFiles/My_Repository.dir/build
-.PHONY : My_Repository/fast
+RSLatch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RSLatch.dir/build.make CMakeFiles/RSLatch.dir/build
+.PHONY : RSLatch/fast
 
 RSLatch.o: RSLatch.cpp.o
 .PHONY : RSLatch.o
 
 # target to build an object file
 RSLatch.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My_Repository.dir/build.make CMakeFiles/My_Repository.dir/RSLatch.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RSLatch.dir/build.make CMakeFiles/RSLatch.dir/RSLatch.cpp.o
 .PHONY : RSLatch.cpp.o
 
 RSLatch.i: RSLatch.cpp.i
@@ -142,7 +142,7 @@ RSLatch.i: RSLatch.cpp.i
 
 # target to preprocess a source file
 RSLatch.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My_Repository.dir/build.make CMakeFiles/My_Repository.dir/RSLatch.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RSLatch.dir/build.make CMakeFiles/RSLatch.dir/RSLatch.cpp.i
 .PHONY : RSLatch.cpp.i
 
 RSLatch.s: RSLatch.cpp.s
@@ -150,7 +150,7 @@ RSLatch.s: RSLatch.cpp.s
 
 # target to generate assembly for a file
 RSLatch.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/My_Repository.dir/build.make CMakeFiles/My_Repository.dir/RSLatch.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RSLatch.dir/build.make CMakeFiles/RSLatch.dir/RSLatch.cpp.s
 .PHONY : RSLatch.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... My_Repository"
+	@echo "... RSLatch"
 	@echo "... RSLatch.o"
 	@echo "... RSLatch.i"
 	@echo "... RSLatch.s"

@@ -1,4 +1,4 @@
-# Install script for directory: /home/khaled99/My_Repository/RSLatch
+# Install script for directory: /home/khaled99/MyRepo/RSLatch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/khaled99/My_Repository/RSLatch/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/khaled99/MyRepo/RSLatch/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

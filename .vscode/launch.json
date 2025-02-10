@@ -4,7 +4,7 @@
             "name": "C/C++: g++-13 build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${workspaceFolder}/RSLatch",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",

@@ -1,25 +1,16 @@
-cmake_minimum_required(VERSION 3.10)
 
-project(Exercise2)
+project(TLM_LT)
 
-# Remember only one sc_main() function should exist.
-# Choose "nand_main.cpp" here to test your NAND implementation.
-# Choose "exor_main.cpp" here to test your XOR implementation.
+# Add the executable
+add_executable(TLM_LT TLM_LT.cpp)
 
-add_executable(exercise2
-    nand_main.cpp
-    #exor_main.cpp
-)
+# Include SystemC
+target_include_directories(TLM_LT PRIVATE $ENV{SYSTEMC_HOME}/include/)
 
-target_include_directories(exercise2
-    PRIVATE $ENV{SYSTEMC_HOME}/include/
-)
-
+# Link SystemC library
 find_library(SYSTEMC_LIBRARY 
     NAMES systemc
     PATHS $ENV{SYSTEMC_HOME}/lib-$ENV{SYSTEMC_TARGET_ARCH}/
 )
 
-target_link_libraries(exercise2
-    PRIVATE ${SYSTEMC_LIBRARY}
-)
+target_link_libraries(TLM_LT PRIVATE ${SYSTEMC_LIBRARY})

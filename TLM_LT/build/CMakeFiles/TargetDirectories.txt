@@ -1,0 +1,3 @@
+/home/khaled99/MyRepo/TLM_LT/build/CMakeFiles/TLM_LT.dir
+/home/khaled99/MyRepo/TLM_LT/build/CMakeFiles/edit_cache.dir
+/home/khaled99/MyRepo/TLM_LT/build/CMakeFiles/rebuild_cache.dir
