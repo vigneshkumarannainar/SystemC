@@ -34,7 +34,7 @@ public:
     // Initiator socket for outgoing transactions
     tlm_utils::multi_passthrough_initiator_socket<Interconnect> iSocket;
 
-    // Constructor with memory size and routing delay parameters
+    // Constructor 
     SC_HAS_PROCESS(Interconnect);
     Interconnect(sc_module_name name, uint64_t memSize, sc_time routingDelay)
         : sc_module(name), _memSize(memSize), _routingDelay(routingDelay) {
@@ -96,7 +96,7 @@ class SimpleInitiator : public sc_module {
 int sc_main(int argc, char* argv[]) {
     Interconnect interconnect("Interconnect", 1024, sc_time(10, SC_NS));
 
-    // Create 5 targets instead of 4
+    
     //SimpleTarget target0("Target0");
     SimpleTarget target1("Target1");
     SimpleTarget target2("Target2");
