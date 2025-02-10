@@ -1,0 +1,3 @@
+/home/khaled99/My_Repository/RSLatch/build/CMakeFiles/My_Repository.dir
+/home/khaled99/My_Repository/RSLatch/build/CMakeFiles/edit_cache.dir
+/home/khaled99/My_Repository/RSLatch/build/CMakeFiles/rebuild_cache.dir

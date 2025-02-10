@@ -1,25 +1,26 @@
+# filepath: /home/khaled99/MyRepo/RSLatch/CMakeLists.txt
 cmake_minimum_required(VERSION 3.10)
 
 project(Exercise2)
 
-# Remember only one sc_main() function should exist.
-# Choose "nand_main.cpp" here to test your NAND implementation.
-# Choose "exor_main.cpp" here to test your XOR implementation.
-
-add_executable(My_Repository
+# Add the executable
+add_executable(RSLatch
     RSLatch.cpp
-    #exor_main.cpp
+    testRSLatch.cpp
 )
 
-target_include_directories(My_Repository
+# Include SystemC headers
+target_include_directories(RSLatch
     PRIVATE $ENV{SYSTEMC_HOME}/include/
 )
 
+# Find the SystemC library
 find_library(SYSTEMC_LIBRARY 
     NAMES systemc
     PATHS $ENV{SYSTEMC_HOME}/lib-$ENV{SYSTEMC_TARGET_ARCH}/
 )
 
-target_link_libraries(My_Repository
+# Link the SystemC library
+target_link_libraries(RSLatch
     PRIVATE ${SYSTEMC_LIBRARY}
 )
