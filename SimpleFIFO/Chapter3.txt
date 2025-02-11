@@ -14,7 +14,7 @@ public:
 };
 
 // Implementation of the FIFO
-class SimpleFIFO : public SimpleFIFOInterface {
+class SimpleFifo : public SimpleFIFOInterface {
 private:
     std::queue<unsigned int> fifo; // Queue to hold the FIFO data
     sc_event writtenEvent; // Event to notify of a write operation
@@ -23,7 +23,7 @@ private:
 
 public:
     // Constructor to initialize the FIFO with a maximum size
-    SimpleFIFO(unsigned int size = 16) : maxSize(size) {}
+    SimpleFifo(unsigned int size = 16) : maxSize(size) {}
 
     // Blocking read method
     unsigned int read() override {
@@ -85,7 +85,7 @@ SC_MODULE(Consumer) {
 int sc_main(int argc, char* argv[]) {
     Producer producer("Producer");
     Consumer consumer("Consumer");
-    SimpleFIFO fifo(4); // Instantiate FIFO with a depth of 4
+    SimpleFifo fifo(4); // Instantiate FIFO with a depth of 4
 
     // Bind ports
     producer.out(fifo);
