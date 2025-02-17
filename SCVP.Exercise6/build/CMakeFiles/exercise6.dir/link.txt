@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/exercise6.dir/main.cpp.o -o exercise6   -L/home/omkar/systemc-install/lib  -Wl,-rpath,/home/omkar/systemc-install/lib -lsystemc 
