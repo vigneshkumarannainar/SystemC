@@ -1,0 +1,3 @@
+/home/omkar/SCVP.Exercise8/build/CMakeFiles/exercise8.dir
+/home/omkar/SCVP.Exercise8/build/CMakeFiles/edit_cache.dir
+/home/omkar/SCVP.Exercise8/build/CMakeFiles/rebuild_cache.dir

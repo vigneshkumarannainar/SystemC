@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/exercise8.dir/main.cpp.o CMakeFiles/exercise8.dir/memory_manager.cpp.o -o exercise8   -L/home/omkar/systemc-install/lib  -Wl,-rpath,/home/omkar/systemc-install/lib -lsystemc 
