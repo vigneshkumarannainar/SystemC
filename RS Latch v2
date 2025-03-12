@@ -1,5 +1,0 @@
-void process() {
-  Q.write(!(R.read()||N.read())); // NOR Gate
-  N.write(!(S.read()||Q.read())); // NOR Gate
-}
-};
